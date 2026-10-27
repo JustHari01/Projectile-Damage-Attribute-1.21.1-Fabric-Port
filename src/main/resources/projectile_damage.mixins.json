@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.projectile_damage.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "LivingEntityMixin",
+    "ItemStackMixin",
+    "PersistentProjectileEntityMixin",
+    "RangedWeaponItemMixin",
+    "RegistriesMixin",
+    "ServerWorldMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

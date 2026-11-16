@@ -12,7 +12,11 @@ This port is maintained by JustHari01 and is not endorsed by or affiliated with 
 - Provides `IProjectileWeapon` and `RangedWeaponKind` for modded ranged weapons, including optional launch-velocity compensation.
 - Includes the upstream default bow/crossbow values and configurable fallback behavior for other ranged weapons.
 - Shows the projectile damage value in item tooltips.
-- Runs on Fabric client and server.
+- Designed for Fabric clients and servers; install it on both sides.
+
+## Validation status
+
+The Minecraft 1.21.1 JAR built successfully with Java 21. In-game client and server behavior, projectile damage, the Impact effect, and the custom-weapon API have not been runtime-tested. The CurseForge release is marked Alpha.
 
 ## Installation
 
